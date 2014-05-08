@@ -17,5 +17,10 @@ namespace AssemblyToProcess
 
             Assert.False(actual);
         }
+
+        public void Equal_should_have_message()
+        {
+            Assert.Equal(true,false);
+        }
     }
 }

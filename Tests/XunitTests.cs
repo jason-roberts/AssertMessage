@@ -16,5 +16,11 @@ namespace Tests
         {
             CheckIfMessageIsValid("Assert.False(actual);");
         }
+
+        [Test]
+        public void Equal_should_have_message()
+        {
+            CheckIfMessageIsValid("Assert.Equal(true, false);");
+        }
     }
 }
